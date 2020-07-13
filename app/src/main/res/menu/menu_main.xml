@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ac.nightmovieapp.MainActivity">
+    <item
+        android:id="@+id/sort_by"
+        android:orderInCategory="100"
+        android:title="Sort By"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear_db"
+        android:orderInCategory="100"
+        android:title="Clear Fav"
+        app:showAsAction="never" />
+</menu>

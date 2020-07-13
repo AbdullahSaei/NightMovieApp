@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="1dp"
+    android:paddingLeft="0.5dp"
+    android:paddingRight="0.5dp"
+    android:paddingTop="1dp"
+    android:background="#FFF"
+    tools:context="com.example.ac.nightmovieapp.MainActivityFragment">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:text="Hell yeah!" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_header"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@color/black_overlay"
+        android:gravity="center"
+        android:text="No Fav Movies added"
+        android:textAlignment="gravity"
+        android:textSize="64sp"
+        android:visibility="gone"/>
+
+    <GridView
+        android:id="@+id/gv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_header"
+        android:background="#FFF"
+        android:numColumns="auto_fit" />
+
+</RelativeLayout>
