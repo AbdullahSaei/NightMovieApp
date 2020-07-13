@@ -27,3 +27,5 @@ for Udacity Nanodegree Android development
 
 ### General Project Guidelines
 - App conforms to common standards found in the Android Nanodegree [General Project Guidelines](http://udacity.github.io/android-nanodegree-guidelines/core.html).
+
+![](imgs/myfile-2.png)
